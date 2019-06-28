@@ -31,3 +31,21 @@
     transform: rotate(360deg);
   }
 }
+
+.friendContainer {
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.friendCard {
+  border: 3px solid black;
+  width: 30%;
+  display: block;
+  margin: 3%;
+  padding: 2%;
+}
+
+.friendInfo {
+  text-align: left;
+}
